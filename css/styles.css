@@ -1,0 +1,73 @@
+body {
+    border: 0;
+    margin: 0 0;
+    z-index: 1;
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+    overflow-y: hidden;
+}
+
+.blur {
+    min-width: 100%;
+    min-height: 2000px;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(36, 67, 68, 0.6)
+}
+
+#logo {
+    z-index: 5;
+    width: 33%;
+}
+
+#marketing-text {
+    z-index: 5;
+}
+
+.marketing-comercial {
+    font-size: 2em;
+}
+
+.sub-marketing-comercial {
+    font-size: 1.10em;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.call-to-action {
+    color: white;
+    background-color: #299B9B;
+    border: 0;
+    padding: 16px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+    #logo {
+        z-index: 5;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 747px){
+    #logo {
+        z-index: 5;
+        width: 40%;
+    }
+}
